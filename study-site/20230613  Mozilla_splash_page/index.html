@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mozilla 宣传主页</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:400,700" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Mozilla</h1>
+<img src="images/firefox_logo_RGB_120px.jpg" title="firefox" alt="firefox-logo" />
+      <!-- 插入 <img> 元素，链接至较小的 Firefox 标志。 -->
+
+    </header>
+
+    <main>
+      <article>
+<iframe width="400" src="//player.bilibili.com/player.html?aid=3303261&bvid=BV1rs411d7hC&cid=5221343&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="400" height="225" src="https://player.bilibili.com/player.html?aid=3303261&bvid=BV1rs411d7hC&cid=5221342&page=2" scrolling="no" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+        <!-- 插入来自 Bilibili 的 <iframe> 元素 -->
+
+        <h2>自由网络 尽情驰骋</h2>
+
+        <p>Mozilla 是一个全球社区，这里聚集着来自五湖四海的 技术人员、思考者、建造者。我们致力于让 Internet 保持活力，保持畅通，人人皆可贡献，人人皆可创造。我们坚信：开放平台的协作对于人的发展至关重要，也决定着我们共同的未来。</p>
+
+        <p>更多精彩信息，敬请点击下方图片。<a href="https://www.flickr.com/photos/mathiasappel/21675551065/">小熊猫照片</a>由 Mathias Appel 拍摄</p>
+      </article>
+
+      <div class="further-info">
+        <!-- 插入包含 srcsets 和 sizes 属性的图像 -->
+        <a href="https://www.mozilla.org/zh-CN/firefox/new/">
+          <img srcset="images/firefox_logo_RGB_120px.jpg 120w, 
+           images/firefox_logo_RGB_400px.jpg 400w" 
+           sizes="(max-width: 480px) 120px, 400px"
+           src="images/firefox_logo_RGB_400px.jpg" 
+           alt="firefoxlogo">
+        </a>
+        <a href="https://www.mozilla.org/">
+          <img srcset="images/mozilla-dinosaur-head-120px.png 120w, 
+           images/mozilla-dinosaur-head-400px.png 400w" 
+           sizes="(max-width: 480px) 120px, 400px"
+           src="images/mozilla-dinosaur-head-400px.png" 
+           alt="mozillalogo">
+        </a>
+        <a href="https://addons.mozilla.org/">
+          <img srcset="images/firefox_addons_120px.jpg 120w, 
+           images/firefox_addons_400px.jpg 400w" 
+           sizes="(max-width: 480px) 120px, 400px"
+           src="images/firefox_addons_400px.jpg" 
+           alt="firefoxaddons">
+        </a>
+        <a href="https://developer.mozilla.org/zh-CN/">
+          <img src="images/mdn.svg" alt="mdn">
+        </a>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="red-panda">
+      <picture>
+      <source media="(max-width: 600px)" srcset="images/red-panda-600px.jpg">
+      <source media="(min-width: 601px)" srcset="images/red-panda-1200px.jpg">
+      <img src="images/red-panda-1200px.jpg" alt="red-panda">
+      </picture>
+        <!-- 插入照片元素 -->
+      </div>
+
+    </main>
+  </body>
+</html>
